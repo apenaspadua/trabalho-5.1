@@ -11,7 +11,7 @@ pipeline {
         stage('Compile') {
             steps {
                 sh 'javac -version' // Verifica a versão do Java instalada
-                sh 'javac -cp .:/trabalho04-0.0.1-SNAPSHOT.jar' // Compila o código fonte
+                sh 'javac -cp ./trabalho04-0.0.1-SNAPSHOT.jar' // Compila o código fonte
             }
         }
         
